@@ -10,13 +10,13 @@ body{
 }
 :root{
 
-    --cor1: #42b3e5;
-    --cor2: #24b65f;
-    --cor3: #0384ce;
-    --cor4: #AB0000;
-    --cor5: #3156a3;
-    --cor7: #FFCC29;
-    --cor6: #202020;
+    --principal: #42b3e5;
+    --rodape: #202020;
+    --hotifruti: #24b65f;
+    --mercearia: #835b17;
+    --açougue: #AB0000;
+    --bebidas: #3156a3;
+    --padaria: #FFCC29;
 
     --mont: 'Montserrat', sans-serif;
 }
@@ -75,8 +75,8 @@ nav a{
     border-bottom: 3px solid white;
 }
 nav a:hover{
-    border-bottom: 3px solid var(--cor1);
-    color: var(--cor3);
+    border-bottom: 3px solid var(--principal);
+    color: var(--principal);
     transition-duration: .5s;
 }
 
@@ -119,7 +119,7 @@ nav a:hover{
 .banner h2{
     margin-top: 20px;
     text-transform: uppercase;
-    color: var(--cor3);
+    color: var(--principal);
     font-weight:bold;
     font-size: 35px;
 }
@@ -149,7 +149,7 @@ nav a:hover{
 .widget-title-bar{
     width: 60px;
     height: 2px;
-    background-color: var(--cor3);
+    background-color: var(--principal);
 }
 .variedades .container{
     flex-direction: column;
@@ -222,7 +222,7 @@ nav a:hover{
     text-align: center;
 }
 .frutas_verduras h2{
-    color: var(--cor2);
+    color: var(--hotifruti);
 }
 
 /*catalogo hortifruti*/
@@ -231,7 +231,7 @@ nav a:hover{
     justify-content: center;
 }
 .hortifruti .widget-title-bar{
-    background-color: var(--cor2);
+    background-color: var(--hotifruti);
 }
 .hortifruti .catalogo{
     display: flex;
@@ -260,7 +260,7 @@ nav a:hover{
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: var(--cor2);
+    background-color: var(--hotifruti);
     font-size: 13px;
     color: white;
     padding: 10px;
@@ -286,26 +286,26 @@ nav a:hover{
 }
 .bn_mercearia h2{
     font-size: 30px;
-    color: var(--cor1);
+    color: var(--mercearia);
 }
 
 /*seção mercearia*/
 
 .mercearia .widget-title-bar{
-    background-color: var(--cor1);
+    background-color: var(--mercearia);
 }
 .mercearia .btn{
-    background-color: var(--cor1);
+    background-color: var(--mercearia);
     margin-bottom: 30px;
 }
 .mercearia .btn:hover {
-    background-color: var(--cor3);
+    background-color: #684914;
 }
 
-/*banner padaria*/
+/*banner açougue*/
 
 .bn_açougue{
-    background-image: url('../img/açougue.jpg');
+    background-image: url('../img/banner/açougue/bn_açougue.jpg');
     animation-name: açougue;
     height: 400px;
 }
@@ -315,16 +315,16 @@ nav a:hover{
     font-size: 33px;
 }
 .bn_açougue h2{
-    color: var(--cor4);
+    color: var(--açougue);
 }
 
-/*seção padaria*/
+/*seção açougue*/
 
 .açougue .widget-title-bar{
-    background-color: var(--cor4);
+    background-color: var(--açougue);
 }
 .açougue .btn{
-    background-color: var(--cor4);
+    background-color: var(--açougue);
     margin: 15px 0px;
 }
 .açougue .btn:hover{
@@ -345,22 +345,52 @@ nav a:hover{
     font-size: 33px;
 }
 .bn_bebidas h2{
-    color: var(--cor5);
+    color: var(--bebidas);
 }
 
 /*seção bebidas*/
 
 .bebidas .widget-title-bar{
-    background-color: var(--cor5);
+    background-color: var(--bebidas);
 }
 .bebidas .btn{
-    background-color: var(--cor5);
+    background-color: var(--bebidas);
     margin: 15px 0px;
 }
 .bebidas .btn:hover{
     background-color: #3488e9;
 }
 .bebidas .photo_inf p{
+    text-transform: uppercase;
+}
+
+/*banner panificadora*/
+
+.bn_panificadora{
+    background-image: url('../img/padaria/cp_padaria.jpg');
+    animation-name: bebidas;
+}
+.bn_panificadora h1{
+    max-width: 800px;
+    font-size: 33px;
+}
+.bn_panificadora h2{
+    color: var(--padaria);
+}
+
+/*seção bebidas*/
+
+.panificadora .widget-title-bar{
+    background-color: var(--padaria);
+}
+.panificadora .btn{
+    background-color: var(--padaria);
+    margin: 15px 0px;
+}
+.panificadora .btn:hover{
+    background-color: #ddb11e;
+}
+.panificadora .photo_inf p{
     text-transform: uppercase;
 }
 
@@ -381,7 +411,7 @@ nav a:hover{
 
 /*seção rodape*/
 footer{
-    background-color: var(--cor6);
+    background-color: var(--rodape);
     display: flex;
     justify-content: center;
 }
@@ -399,7 +429,7 @@ footer .inf_contact{
     color: #ADADAD;
 }
 .inf_contact .widget-title-bar{
-    background-color: var(--cor3);
+    background-color: var(--principal);
 }
 .inf_contact .contato,
 .inf_contact .endereco,
@@ -493,7 +523,7 @@ footer .inf_contact{
     color: #ADADAD;
 }
 .copy a:hover{
-    color: var(--cor3);
+    color: var(--principal);
 }
 .atendimento .horario{
     flex-direction: row;
@@ -595,7 +625,7 @@ footer .inf_contact{
     }
     nav a:hover{
         border-bottom: none;
-        color: var(--cor1);
+        color: var(--principal);
     }
 
     /*banner*/
