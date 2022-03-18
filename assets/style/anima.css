@@ -1,0 +1,75 @@
+@keyframes banner{
+    25%{
+        background-image: url('../img/dn_frutas.png');
+    }
+    50%{
+        background-image: url('../img/dn_açougue.png');
+    }
+    75%{
+        background-image: url('../img/dn_mercearia.png');
+    }
+    100%{
+        background-image: url('../img/dn_capa.png');
+    }
+
+}
+
+@keyframes hortifruti{
+    25%{
+        background-image: url('../img/frutas.jpg');
+    }
+    50%{
+        background-image: url('../img/img_mercado/frutas1.jpg');
+    }
+    75%{
+        background-image: url('../img/img_mercado/verduras3.jpg');
+    }
+    100%{
+        background-image: url('../img/img_mercado/verduras2.jpg');
+    }
+}
+
+@keyframes mercearia{
+    25%{
+        background-image: url('../img/pereciveis/banner-arroz.jpg');
+    }
+    50%{
+        background-image: url('../img/pereciveis/nao-perecivel.jpg');
+    }
+    75%{
+        background-image: url('../img/pereciveis/banner-perecivel.jpg');
+    }
+    100%{
+        background-image: url('../img/pereciveis/cp-oleo.jpg');
+    }
+}
+
+@keyframes bebidas{
+    25%{
+        background-image: url('../img/bebidas/pratileira_alcool.png');
+    }
+    50%{
+        background-image: url('../img/bebidas/pratileira_refri.png');
+    }
+    75%{
+        background-image: url('../img/bebidas/dn_cerveja.png');
+    }
+    100%{
+        background-image: url('../img/bebidas/suco.jpg');
+    }
+}
+
+@keyframes açougue{
+    25%{
+        background-image: url('../img/dn_açougue.png');
+    }
+    50%{
+        background-image: url('../img/img_mercado/almondegas.jpg');
+    }
+    75%{
+        background-image: url('../img/img_mercado/frango.jpg');
+    }
+    100%{
+        background-image: url('../img/img_mercado/linguiça.jpg');
+    }
+}
