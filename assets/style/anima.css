@@ -1,46 +1,46 @@
 @keyframes banner{
     25%{
-        background-image: url('../img/dn_frutas.png');
+        background-image: url('../img/banner/principal/ec_frutas.png');
     }
     50%{
-        background-image: url('../img/dn_açougue.png');
+        background-image: url('../img/banner/principal/ec_açougue.png');
     }
     75%{
-        background-image: url('../img/dn_mercearia.png');
+        background-image: url('../img/banner/principal/ec_mercearia.png');
     }
     100%{
-        background-image: url('../img/dn_capa.png');
+        background-image: url('../img/banner/principal/ec_capa.png');
     }
 
 }
 
 @keyframes hortifruti{
     25%{
-        background-image: url('../img/frutas.jpg');
+        background-image: url('../img/banner/hortifruti/bn_frutas.jpg');
     }
     50%{
-        background-image: url('../img/img_mercado/frutas1.jpg');
+        background-image: url('../img/banner/hortifruti/bn_frutas1.jpg');
     }
     75%{
-        background-image: url('../img/img_mercado/verduras3.jpg');
+        background-image: url('../img/banner/hortifruti/bn_verduras3.jpg');
     }
     100%{
-        background-image: url('../img/img_mercado/verduras2.jpg');
+        background-image: url('../img/banner/hortifruti/bn_verduras2.jpg');
     }
 }
 
 @keyframes mercearia{
     25%{
-        background-image: url('../img/pereciveis/banner-arroz.jpg');
+        background-image: url('../img/banner/mercearia/bn_arroz.jpg');
     }
     50%{
-        background-image: url('../img/pereciveis/nao-perecivel.jpg');
+        background-image: url('../img/banner/mercearia/bn_mercearia.jpg');
     }
     75%{
-        background-image: url('../img/pereciveis/banner-perecivel.jpg');
+        background-image: url('../img/banner/mercearia/bn_compras.jpg');
     }
     100%{
-        background-image: url('../img/pereciveis/cp-oleo.jpg');
+        background-image: url('../img/banner/mercearia/bn-oleo.jpg');
     }
 }
 

@@ -39,7 +39,7 @@ header .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 25px;
 }
 .logo img{
     width: 200px;
@@ -84,7 +84,7 @@ nav a:hover{
 
 .banner{
     height: calc(100vh - 100px); 
-    background-image: url('../img/dn_capa.png');
+    background-image: url('../img/banner/principal/ec_capa.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,8 +134,8 @@ nav a:hover{
     justify-content: center;
 }
 .variedades .photo_area{
-    width: 350px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
 }
 .widget-title{
     margin: 30px 0px 20px 0px;
@@ -167,10 +167,10 @@ nav a:hover{
 .photo_area img{
     width: inherit;
     height: inherit;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 .photo_area .photo_inf{
-    border-radius: 5px;
+    border-radius: 50%;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -192,7 +192,7 @@ nav a:hover{
 .photo_inf p{
     font-size: 12px;
     color: white;
-    max-width: 230px;
+    max-width: 200px;
 }
 .photo_area:hover .photo_inf{
     display:flex;
@@ -214,7 +214,7 @@ nav a:hover{
 .frutas_verduras{
     height: 400px;
     margin-top: 30px;
-    background-image: url('../img/verduras.jpg');
+    background-image: url('../img/banner/hortifruti/bn_verduras.jpg');
     animation-name: hortifruti;
 }
 .frutas_verduras h1{
@@ -276,7 +276,7 @@ nav a:hover{
 .bn_mercearia {
     height: 400px;
     margin-top: 30px;
-    background-image: url('../img/pereciveis/banner-perecivel.jpg');
+    background-image: url('../img/banner/mercearia/bn_compras.jpg');
     animation-name: mercearia;
 }
 .bn_mercearia h1{
