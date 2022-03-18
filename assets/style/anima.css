@@ -1,12 +1,12 @@
 @keyframes banner{
     25%{
-        background-image: url('../img/banner/principal/ec_frutas.png');
+        background-image: url('../img/banner/açougue/bn_açougue.jpg');
     }
     50%{
-        background-image: url('../img/banner/principal/ec_açougue.png');
+        background-image: url('../img/banner/mercearia/bn_mercearia.png');
     }
     75%{
-        background-image: url('../img/banner/principal/ec_mercearia.png');
+        background-image: url('../img/banner/bebidas/bn_sucos.png');
     }
     100%{
         background-image: url('../img/banner/principal/ec_capa.png');
@@ -16,16 +16,16 @@
 
 @keyframes hortifruti{
     25%{
-        background-image: url('../img/banner/hortifruti/bn_frutas.jpg');
+        background-image: url('../img/banner/hortifruti/bn_compras.jpg');
     }
     50%{
-        background-image: url('../img/banner/hortifruti/bn_frutas1.jpg');
+        background-image: url('../img/banner/hortifruti/bn_frutas.jpg');
     }
     75%{
-        background-image: url('../img/banner/hortifruti/bn_verduras3.jpg');
+        background-image: url('../img/banner/hortifruti/bn_verduras.jpg');
     }
     100%{
-        background-image: url('../img/banner/hortifruti/bn_verduras2.jpg');
+        background-image: url('../img/banner/hortifruti/bn_maçã.jpg');
     }
 }
 
@@ -72,4 +72,20 @@
     100%{
         background-image: url('../img/banner/açougue/bn_linguiça.jpg');
     }
+}
+
+@keyframes panificadora{
+    25%{
+        background-image: url('../img/banner/padaria/bn_pães.png');
+    }
+    50%{
+        background-image: url('../img/banner/padaria/bn_bolos.png');
+    }
+    75%{
+        background-image: url('../img/banner/padaria/bn_padaria.jpg');
+    }
+    100%{
+        background-image: url('../img/banner/padaria/bn_panificadora.png');
+    }
+
 }

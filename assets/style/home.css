@@ -214,7 +214,7 @@ nav a:hover{
 .frutas_verduras{
     height: 400px;
     margin-top: 30px;
-    background-image: url('../img/banner/hortifruti/bn_verduras.jpg');
+    background-image: url('../img/banner/hortifruti/bn_hortifruti.png');
     animation-name: hortifruti;
 }
 .frutas_verduras h1{
@@ -368,7 +368,7 @@ nav a:hover{
 
 .bn_panificadora{
     background-image: url('../img/padaria/cp_padaria.jpg');
-    animation-name: bebidas;
+    animation-name: panificadora;
 }
 .bn_panificadora h1{
     max-width: 800px;
@@ -391,7 +391,7 @@ nav a:hover{
     background-color: #ddb11e;
 }
 .panificadora .photo_inf p{
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /*seção map*/
