@@ -161,6 +161,9 @@ nav a:hover{
     justify-content: center;
     margin-top: 25px;
 }
+.variedade_photos .box_variedades{
+    display: flex;
+}
 .variedades .photo_area{
     margin-right: 15px;
 }
@@ -544,12 +547,38 @@ footer .inf_contact{
 
 @media (max-width: 768px){
     /*menu*/
-    nav ul,
-    nav li{
-        font-size: 11.5px;
+    .menu .menu_open{
+        display: flex;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 50vw;
+        margin-right: 10vw;
     }
-    .logo{
-        margin-right: 12px;
+    nav ul:first-child{
+        margin-top: 50px;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 50vw;
+        position: absolute;
+        z-index: 99;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.87);
+        height: calc(100vh - 100px);
+        margin-right: 0px;
+    }
+    nav a{
+        border-bottom: none;
+        height: auto;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 4.8px 0px 4.8px 40px;
+    }
+    nav a:hover{
+        border-bottom: none;
+        color: var(--principal);
     }
     /*seção banner*/
 
@@ -561,21 +590,29 @@ footer .inf_contact{
     }
 
     /*seção variedades*/
-
+    .variedade_photos .box_variedades{
+        flex-direction: column;
+    }
     .variedades .photo_area{
-        width: 232px;
-        height: 170px;
+        width: 200px;
+        height: 200px;
         margin-right: 10px;
     }
     .photo_inf h5,
     .variedades_area h2{
         font-size: 16px;
     }
+    .variedades_area h2{
+        margin-bottom: 20px;
+    }
     .photo_inf p{
         font-size: 11px;
         padding: 0px 5px;
     }
-
+    /*hortifruti*/
+    .frutas_verduras{
+        margin-top: 10px;
+    }
     /*rodapé*/
 
     footer .inf_contact{
