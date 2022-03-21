@@ -279,7 +279,7 @@ nav a:hover{
 .bn_mercearia {
     height: 400px;
     margin-top: 30px;
-    background-image: url('../img/banner/mercearia/bn_compras.jpg');
+    background-image: url('../img/banner/mercearia/bn_mercearia.png');
     animation-name: mercearia;
 }
 .bn_mercearia h1{
@@ -340,7 +340,7 @@ nav a:hover{
 /*banner bebidas*/
 
 .bn_bebidas{
-    background-image: url('../img/bebidas/dn_bebidas.png');
+    background-image: url('../img/banner/bebidas/bn_cerveja.png');
     animation-name: bebidas;
 }
 .bn_bebidas h1{
@@ -381,7 +381,7 @@ nav a:hover{
     color: var(--padaria);
 }
 
-/*seção bebidas*/
+/*seção panificadora*/
 
 .panificadora .widget-title-bar{
     background-color: var(--padaria);
@@ -480,6 +480,9 @@ footer .inf_contact{
     text-decoration: none;
     color: #ADADAD;
 }
+.area_cont .cont a:hover{
+    color: var(--principal);
+}
 .endereco .desc_endereco,
 .atendimento .horario{
     display: flex;
@@ -493,6 +496,9 @@ footer .inf_contact{
 .desc_endereco a{
     text-decoration: none;
     color: #ADADAD;
+}
+.desc_endereco a:hover{
+    color: var(--principal);
 }
 .desc_endereco .rua,
 .desc_endereco .bairro,

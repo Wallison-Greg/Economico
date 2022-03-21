@@ -31,46 +31,46 @@
 
 @keyframes mercearia{
     25%{
-        background-image: url('../img/banner/mercearia/bn_arroz.jpg');
+        background-image: url('../img/banner/mercearia/bn_pereciveis.jpg');
     }
     50%{
-        background-image: url('../img/banner/mercearia/bn_mercearia.jpg');
+        background-image: url('../img/banner/mercearia/bn_enlatados.jpg');
     }
     75%{
         background-image: url('../img/banner/mercearia/bn_compras.jpg');
     }
     100%{
-        background-image: url('../img/banner/mercearia/bn-oleo.jpg');
+        background-image: url('../img/banner/mercearia/bn_variedades.png');
     }
 }
 
 @keyframes bebidas{
     25%{
-        background-image: url('../img/bebidas/pratileira_alcool.png');
+        background-image: url('../img/banner/bebidas/bn_refrigerante.png');
     }
     50%{
-        background-image: url('../img/bebidas/pratileira_refri.png');
+        background-image: url('../img/banner/bebidas/bn_cerveja.png');
     }
     75%{
-        background-image: url('../img/bebidas/dn_cerveja.png');
+        background-image: url('../img/banner/bebidas/bn_sucos.png');
     }
     100%{
-        background-image: url('../img/bebidas/suco.jpg');
+        background-image: url('../img/banner/bebidas/bn_sucos.png');
     }
 }
 
 @keyframes açougue{
     25%{
-        background-image: url('../img/banner/açougue/bn_almondegas.jpg');
+        background-image: url('../img/banner/açougue/bn_frango.png');
     }
     50%{
-        background-image: url('../img/banner/açougue/bn_frango.jpg');
+        background-image: url('../img/banner/açougue/bn_açougue.png');
     }
     75%{
-        background-image: url('../img/banner/açougue/bn_açougue.jpg');
+        background-image: url('../img/banner/açougue/bn_linguica.png');
     }
     100%{
-        background-image: url('../img/banner/açougue/bn_linguiça.jpg');
+        background-image: url('../img/banner/açougue/bn_açougue-2.png');
     }
 }
 
