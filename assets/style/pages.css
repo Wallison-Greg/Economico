@@ -17,12 +17,19 @@ main{
 }
 .body .container{
     flex-direction: column;
+    align-items: center;
     margin-bottom: 30px;
 
     background-color: whitesmoke;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.705);
+}
+.body .widget-title-text{
+    font-size: 16px;
+}
+.hort .widget-title-bar{
+    background-color: #24b65f;
 }
 .container .area_products{
     display: flex;
@@ -42,7 +49,6 @@ main{
 
 }
 
-/*inicio do teste*/
 .pric_prod {
     font-size: 18px;
     text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.555);
@@ -51,7 +57,6 @@ main{
     margin: 15px 0px;
     color: #FFCC29;
 }
-/*final*/
 
 .product .desc_prod{
     display: none;
@@ -80,15 +85,6 @@ main{
 .desc_prod .cont_prod{
     text-align: center;
 }
-
-/*possivel troca, caso seja aprovada esse parte sera apagada*/
-.desc_prod .pric_prod{
-    text-transform: uppercase;
-    text-shadow: none;
-    margin: 15px 0px;
-    color: #FFCC29;
-}
-/*final da possivel troca*/
 
 .att_title{
     font-family: 'Great Vibes', cursive;
@@ -123,16 +119,7 @@ main{
 .att_cont_desc ul{
     list-style-position: inside;
 }
-.container .natur{
-    flex-direction: column;
-    align-items: center;
-}
-.natur .widget-title-bar{
-    background-color: #42B3E5;
-}
-.area_products .products{
-    display: flex;
-}
+
 /*reponsividade tablet*/
 
 @media (max-width: 768px){
