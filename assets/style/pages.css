@@ -37,6 +37,9 @@ main{
 .açou .widget-title-bar{
     background-color: #AB0000;
 }
+.beb .widget-title-bar{
+    background-color: #3156a3;
+}
 .container .area_products{
     display: flex;
     justify-content: center;
