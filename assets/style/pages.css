@@ -34,6 +34,9 @@ main{
 .merc .widget-title-bar{
     background-color: #835b17;
 }
+.açou .widget-title-bar{
+    background-color: #AB0000;
+}
 .container .area_products{
     display: flex;
     justify-content: center;
