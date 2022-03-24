@@ -115,6 +115,8 @@ nav a:hover{
     color: white;
     font-weight:bold;
     font-size: 40px;
+    max-width: 600px;
+    text-align: center;
 }
 .banner h2{
     margin-top: 20px;
@@ -680,7 +682,10 @@ footer .inf_contact{
     .banner h2{
         font-size: 25px;
     }
-
+    .principal {
+        background-image: url("../img/banner/principal/bn_economico_mob.png");
+        animation-name: banner_mob;
+    }
     /*variedades*/
 
     .variedades .variedade_photos{

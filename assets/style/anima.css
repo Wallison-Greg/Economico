@@ -89,3 +89,19 @@
     }
 
 }
+
+@keyframes banner_mob{
+    25%{
+        background-image: url('../img/banner/açougue/bn_açougue.jpg');
+    }
+    50%{
+        background-image: url('../img/banner/mercearia/bn_mercearia.png');
+    }
+    75%{
+        background-image: url('../img/banner/bebidas/bn_sucos.png');
+    }
+    100%{
+        background-image: url('../img/banner/principal/bn_economico_mob.png');
+    }
+
+}
